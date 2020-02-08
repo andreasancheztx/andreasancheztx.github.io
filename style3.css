@@ -12,7 +12,7 @@ html {
     background-color: #ffffff;
     padding-top: 20px ;
     border-bottom: solid #cccccc 2.5px;
-    
+   
 }
 body {
     margin: 0 0 100px; /* bottom = footer height */
@@ -29,7 +29,7 @@ body {
 }
 
 header #main-section{
-    background: #ffffff ;
+    background: teal ;
     border-bottom: #cccccc;
     width: 1024px;
     border: 0 0 0 0;
@@ -70,13 +70,13 @@ header li{
 
 header nav {
     float: right;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 body {
-    background-image: url("https://images.homedepot-static.com/productImages/57123181-f592-47dd-b52f-976243876046/svn/wall-vision-wallpaper-2827-7173sam-64_600.jpg");
+    background-color: lightblue;
     margin: auto;
-  
+ 
 }
 
 .container2{
@@ -96,57 +96,5 @@ body {
     margin: auto;
 }
 
-input{ 
-    width: 900px;
-    height: 35px;
-    border: solid lightgray 1px;
-    padding: 5px;
-}
-
- #message {
-
-    width: 900px;
-    height: 190px;
-}
-h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-}
-
-#formP{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    font-size: 16px;
-}
-
- #Forms {
-    margin: auto;
-    width: 900px;
- }
-
- .button{
-     width: 40px;
-     height: 40px;
-     margin-bottom: 30px;
-     background-color: #4aaaa5;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 16px;
-     color: #ffffff ;
-     border: 0;
- }
-
-#footer {
-    text-align: center;
-    background-color: #777777;
-    padding: 28px 0 0 0;
-    border-top: solid #4aaaa5 5px;
-    font-size: 12px;
-    color: #ffffff;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 27px;
-    width: 100%;
-}
 © 2020 
 

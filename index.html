@@ -1,61 +1,108 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About | Andrea Sanchez</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andrea Sanchez | Bootstrap Portfolio</title>
+<!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet">
 
+</head>
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Andrea Sanchez</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<div class="container">
+  <h1 class= "page header"> Andrea Sanchez</h1>
+
+<!-- External CSS stylesheet -->
+<link rel="stylesheet" href="style3.css">
+
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+    <span class="navbar-text">
+     
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          
+        </div>
+    </nav>
+    </span>
+  </nav>
+       
+        <!-- Main Area -->
+   
+  </main>
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-lg-12 col-md-8 col-sm-4">
+                <h2>About </h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+              <img src="mypic.jpg" class="auth-image" alt="Andrea's Sample pic" width="200">
+           
+              <p> I live in Corpus Christi, TX. Home of Selena, great Mexican food, and beautiful beaches. 
+                I was born and raised here. I went to Moody High School, and moved to San Antonio when I turned 18. 
+                I attended UTSA, where I attained my BA in Communications.  I spent 12 fun years in the Alamo City. 
+                I moved back to Corpus about 4 years ago to be closer to my family. I recently got married to a wonderful man I have known since I was about 14 years old.
+                We have two dogs and a cat. We just found our 2nd dog in San Antonio. In all honesty, we weren't wanting another pet, but she has made a home with us... and quite
+                frankly, <mark><strong> we are suckers</strong></mark>.
+                <br>
+        
+                <br>
+                    As far as my career goes, I have a very boring job working in Career Services. All joking aside, it has been a great experience working with the students. I feel I have learned all I can learn in my current
+                role, so I feel complacent. My newest venture for 2020 is to take this Web Development class so that I can learn 
+                Front End Development, and start a new career in something more challenging and hopefully fun (and MUCH higher paying!)
+                My current company doesn't seem to like to give big raises.. and thats a problem for me and my pocket book. 
+                 <br>
+        
+                <br>
+        
+                What can I say.. I am at an age and a point in my life where I want to do more, and have the ability to work in a field I have always
+                been interested in. I am blessed with a great life, I am happy, and highly favored. This is an investment in myself, for my husband and our future children. 
+        
+              </p>
+            
+            
+            </div>
+            
+              <div>
+
+              </div>
+        </div>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+  <!-- Footer -->
 
-      <img src="mypic.jpg" class="auth-image" alt="Andrea's Sample pic">
-
-      <p> I live in Corpus Christi, TX. Home of Selena, great Mexican food, and beautiful beaches. 
-        I was born and raised here. I went to Moody High School, and moved to San Antonio when I turned 18. 
-        I attended UTSA, where I attained my BA in Communications.  I spent 12 fun years in the Alamo City. 
-        I moved back to Corpus about 4 years ago to be closer to my family. I recently got married to a wonderful man I have known since I was about 14 years old.
-        We have two dogs and a cat. We just found our 2nd dog in San Antonio. In all honesty, we weren't wanting another pet, but she has made a home with us... and quite
-        frankly, we are suckers. 
-        <br>
-
-        <br>
-            As far as my career goes, I have a very boring job working in Career Services. All joking aside, it has been a great experience working with the students. I feel I have learned all I can learn in my current
-        role, so I feel complacent. My newest venture for 2020 is to take this Web Development class so that I can learn 
-        Front End Development, and start a new career in something more challenging and hopefully fun (and MUCH higher paying!)
-        My current company doesn't seem to like to give big raises.. and thats a problem for me and my pocket book. 
-         <br>
-
-        <br>
-
-        What can I say.. I am at an age and a point in my life where I want to do more, and have the ability to work in a field I have always
-        been interested in. I am blessed with a great life, I am happy, and highly favored. This is an investment in myself, for my husband and our future children. 
-
-      </p>
-    </section>
-
-  </div>
-
-  <footer>
+  <footer class="footer">
     <div class="container">
-      Copyright &copy; 
+      <p>Copyright &#169;</p>
     </div>
   </footer>
-</body>
 
+
+<!-- Bootstrap jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
+
